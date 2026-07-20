@@ -1,0 +1,24 @@
+---
+title: "Notes"
+---
+
+## Expository Papers
+
+These are some expository papers I've written on subjects that interest me during my time at UChicago's Mathematics REU.
+
+- [Analysis of Langevin diffusions](REU2024.pdf)
+
+- [Symbolic combinatorics](REU2023.pdf)
+
+
+## Notes
+
+These are some notes I used to study for final exams at UChicago - they are a good summary of 
+definitions and statements but do not contain proofs.
+
+- [Measure Theory (MATH 20900)](20900.pdf)
+- [Rings and Modules (MATH 25800)](25800.pdf)
+- [Markov Chains, Martingales, and Brownian Motion (MATH 23500)](23500.pdf)
+- [Regression and Causal Inference (STAT 34300)](34300.pdf)
+- [Measure-Theoretic Probability (STAT 38100)](38100.pdf)
+

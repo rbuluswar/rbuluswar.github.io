@@ -1,0 +1,70 @@
+/* Improve readability of homepage text */
+.quarto-about-jolla .about-contents {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.65;
+}
+
+/* Keep the introductory heading centered, if desired */
+.quarto-about-jolla .about-entity {
+  text-align: center;
+}/* css styles */
+
+
+
+
+/* Overall page */
+body {
+  background-color: #faf9f6;
+  color: #252525;
+}
+
+/* Links */
+a {
+  color: #011F5B;
+}
+
+a:hover {
+  color: #a52a55;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e1dc;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #011F5B;
+  font-weight: 600;
+}
+
+/* Main text area */
+.home-text {
+  max-width: 800px;
+  margin: 2rem auto;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #7a1f3d;
+  border-color: #7a1f3d;
+}
+
+.btn-primary:hover {
+  background-color: #60162e;
+  border-color: #60162e;
+}
+
+
+.about-image {
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+

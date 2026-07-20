@@ -1,0 +1,32 @@
+---
+title: "Rohan Buluswar"
+subtitle: "PhD Student in Statistics & Data Science"
+image: profile.jpg
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:buluswar@wharton.upenn.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/rbuluswar
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rohan-buluswar-81295524b/
+---
+
+Hello! I am an incoming PhD student in the Statistics and Data Science department at UPenn Wharton.
+
+I am broadly excited about the mathematical foundations of machine learning. 
+My research interests include diffusion models, mechanistic interpretability, and optimal transport. I have also recently become curious about
+topological data analysis as a tool for interpretability. 
+
+Before beginning my PhD, I completed my BS in Mathematics at the University of Chicago,
+where I was fortunate to work with Prof. Lorenzo Orecchia on sampling algorithms utilizing optimal transport, and studying 
+properties of diffusion models using evolution semigroups.
+
+Outside of research, I enjoy playing board games (my current favorite is Blood on the Clocktower, a social deduction game),
+attending the symphony orchestra, and SCUBA diving.
+
+If we share any common interests, please feel free to get in touch!

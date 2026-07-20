@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download my CV"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "I worked with Lorenzo Orecchia to develop a method for estimating (and ultimately sampling from) an unknown probability distribution with compact support in R^n, given a sample from the distribution, while making no strict assumptions about its form. While generative diffusion models solve this problem, our algorithm avoids the use of neural networks and directly utilizes optimal transport and Wasserstein distance. I presented a poster, which you can view here, at UChicago’s 2025 Undergraduate Research Symposium."
+  },
+  {
+    "objectID": "projects.html#nonparametric-density-estimation-using-optimal-transport",
+    "href": "projects.html#nonparametric-density-estimation-using-optimal-transport",
+    "title": "Projects",
+    "section": "",
+    "text": "I worked with Lorenzo Orecchia to develop a method for estimating (and ultimately sampling from) an unknown probability distribution with compact support in R^n, given a sample from the distribution, while making no strict assumptions about its form. While generative diffusion models solve this problem, our algorithm avoids the use of neural networks and directly utilizes optimal transport and Wasserstein distance. I presented a poster, which you can view here, at UChicago’s 2025 Undergraduate Research Symposium."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "These are some expository papers I’ve written on subjects that interest me during my time at UChicago’s Mathematics REU.\n\nAnalysis of Langevin diffusions\nSymbolic combinatorics"
+  },
+  {
+    "objectID": "notes.html#expository-papers",
+    "href": "notes.html#expository-papers",
+    "title": "Notes",
+    "section": "",
+    "text": "These are some expository papers I’ve written on subjects that interest me during my time at UChicago’s Mathematics REU.\n\nAnalysis of Langevin diffusions\nSymbolic combinatorics"
+  },
+  {
+    "objectID": "notes.html#notes",
+    "href": "notes.html#notes",
+    "title": "Notes",
+    "section": "Notes",
+    "text": "Notes\nThese are some notes I used to study for final exams at UChicago - they are a good summary of definitions and statements but do not contain proofs.\n\nMeasure Theory (MATH 20900)\nRings and Modules (MATH 25800)\nMarkov Chains, Martingales, and Brownian Motion (MATH 23500)\nRegression and Causal Inference (STAT 34300)\nMeasure-Theoretic Probability (STAT 38100)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rohan Buluswar",
+    "section": "",
+    "text": "Hello! I am an incoming PhD student in the Statistics and Data Science department at UPenn Wharton.\nI am broadly excited about the mathematical foundations of machine learning. My research interests include diffusion models, mechanistic interpretability, and optimal transport. I have also recently become curious about topological data analysis as a tool for interpretability.\nBefore beginning my PhD, I completed my BS in Mathematics at the University of Chicago, where I was fortunate to work with Prof. Lorenzo Orecchia on sampling algorithms utilizing optimal transport, and studying properties of diffusion models using evolution semigroups.\nOutside of research, I enjoy playing board games (my current favorite is Blood on the Clocktower, a social deduction game), attending the symphony orchestra, and SCUBA diving.\nIf we share any common interests, please feel free to get in touch!"
+  }
+]

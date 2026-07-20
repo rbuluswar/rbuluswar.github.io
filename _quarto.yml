@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Rohan Buluswar"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: notes.qmd
+        text: Notes
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/rbuluswar
+      - icon: envelope
+        href: mailto:buluswar@wharton.upenn.edu
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

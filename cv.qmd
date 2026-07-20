@@ -1,0 +1,7 @@
+---
+title: "CV"
+---
+
+[Download my CV](cv.pdf){.btn .btn-primary}
+
+
