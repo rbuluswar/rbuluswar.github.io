@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "My thoughts on various topics!"
 listing:
   contents: .
   type: grid
@@ -9,4 +9,4 @@ listing:
 page-layout: full
 ---
 
-My thoughts on various topics! 
+

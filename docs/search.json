@@ -114,15 +114,15 @@
   {
     "objectID": "posts/index.html",
     "href": "posts/index.html",
-    "title": "Research",
+    "title": "My thoughts on various topics!",
     "section": "",
-    "text": "My thoughts on various topics!\n\n\n\n\n\n\n\n\n\n\n\n\nNon-Universality of Line Break Features and Algorithms\n\n\nAn interactive investigation of representation geometry and causal mechanisms in a small Transformer trained to predict line breaks.\n\n\n\nOct 13, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Non-Universality of Line Break Features and Algorithms\n\n\nAn interactive investigation of representation geometry and causal mechanisms in a small Transformer trained to predict line breaks.\n\n\n\nOct 13, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Rohan Buluswar",
     "section": "",
-    "text": "Hello! I am an first-year PhD student in the Statistics and Data Science department at UPenn Wharton.\nI am broadly excited about both mathematical and scientific foundations of deep learning. My current interests include mechanistic interpretability, AI safety, and diffusion models.\nBefore beginning my PhD, I completed my BS in Mathematics at the University of Chicago, where I was fortunate to work with Prof. Lorenzo Orecchia on sampling algorithms utilizing optimal transport, and the use of evolution semigroups in studying properties of diffusion models.\nOutside of research, I enjoy playing board games (my current favorite is Blood on the Clocktower), attending the symphony orchestra, and SCUBA diving.\nIf we share any common interests, please feel free to get in touch!"
+    "text": "Hello! I am an first-year PhD student in the Statistics and Data Science department at UPenn Wharton.\nI am broadly excited about both mathematical and scientific foundations of deep learning. My current interests include mechanistic interpretability, AI safety, and diffusion models.\nBefore beginning my PhD, I completed my BS in Mathematics at the University of Chicago, where I was fortunate to work with Prof. Lorenzo Orecchia on topics in sampling, optimal transport, and diffusion.\nOutside of research, I enjoy playing board games (my current favorite is Blood on the Clocktower), attending the symphony orchestra, and SCUBA diving.\nIf we share any common interests, please feel free to get in touch!"
   }
 ]

@@ -22,7 +22,7 @@ I am broadly excited about both mathematical and scientific foundations of deep 
 My current interests include mechanistic interpretability, AI safety, and diffusion models.
 
 Before beginning my PhD, I completed my BS in Mathematics at the University of Chicago,
-where I was fortunate to work with Prof. Lorenzo Orecchia on sampling algorithms utilizing optimal transport, and the use of evolution semigroups in studying properties of diffusion models.
+where I was fortunate to work with Prof. Lorenzo Orecchia on topics in sampling, optimal transport, and diffusion.
 
 Outside of research, I enjoy playing board games (my current favorite is Blood on the Clocktower),
 attending the symphony orchestra, and SCUBA diving.
