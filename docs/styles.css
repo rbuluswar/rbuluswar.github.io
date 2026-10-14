@@ -10,7 +10,20 @@
 /* Keep the introductory heading centered, if desired */
 .quarto-about-jolla .about-entity {
   text-align: center;
-}/* css styles */
+}
+
+/* Give the homepage's Solana layout a little more horizontal breathing room. */
+.quarto-about-solana {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quarto-about-solana .about-contents {
+  max-width: none;
+}
+
+/* css styles */
 
 
 
@@ -105,6 +118,63 @@ h3 {
 
 .project-links a {
   font-weight: 600;
+}
+
+/* Blog listing cards: wide, compact, and quiet against the dark page. */
+.quarto-listing-container-grid .list {
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 1rem;
+}
+
+.quarto-listing-container-grid .g-col-1 {
+  grid-column: 1 / -1;
+  max-width: 920px;
+}
+
+.quarto-listing-container-grid .quarto-grid-item.card {
+  overflow: hidden;
+  border: 1px solid #303844;
+  border-radius: 16px;
+  background: #1a1f27;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
+  transition: background-color 160ms ease, border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.quarto-listing-container-grid .quarto-grid-item.card:hover {
+  border-color: #435064;
+  background: #1e252f;
+  transform: translateY(-2px);
+}
+
+.quarto-listing-container-grid .listing-item-img-placeholder {
+  display: none;
+}
+
+.quarto-listing-container-grid .quarto-grid-item .card-body {
+  padding: 1.25rem 1.5rem 1.1rem;
+}
+
+.quarto-listing-container-grid .quarto-grid-item .card-title {
+  margin-bottom: 0.55rem;
+  color: #f4f7fb;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.quarto-listing-container-grid .quarto-grid-item .listing-description p {
+  margin-bottom: 0;
+  color: #c8d0dc;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.quarto-listing-container-grid .quarto-grid-item .card-attribution {
+  margin-top: 0.9rem;
+  color: #8f9bab;
+  font-size: 0.82rem;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
 }
 
 @media (max-width: 767px) {
