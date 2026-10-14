@@ -6,6 +6,7 @@ website:
   title: "Rohan Buluswar"
   site-url: https://rbuluswar.github.io
   navbar:
+    pinned: true
     left:
       - href: index.qmd
         text: Home
