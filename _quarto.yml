@@ -11,7 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - href: posts/index.qmd
-        text: Research
+        text: Blog Posts
       - href: notes.qmd
         text: Notes
       - href: projects.qmd
