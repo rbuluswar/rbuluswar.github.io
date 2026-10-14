@@ -8,12 +8,5 @@ I am studying how a small causal Transformer learns to represent line structure,
 character count, and newline prediction. The long-form, interactive version of
 this project is in the [research writeup](posts/line-break-project/).
 
-## Nonparametric Density Estimation using Optimal Transport
-
-I worked with Lorenzo Orecchia to develop a method for estimating (and ultimately sampling from) an unknown 
-probability distribution with compact support in R^n, given a sample from the distribution, 
-while making no strict assumptions about its form. While generative diffusion models 
-solve this problem, our algorithm avoids the use of neural networks and directly utilizes optimal transport and Wasserstein distance. 
-I presented a poster, which you can view [here](UndergradResearchSymposium.pdf), at UChicago's 2025 Undergraduate Research Symposium.
 
 
