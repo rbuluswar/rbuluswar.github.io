@@ -12,33 +12,46 @@
 <generator>quarto-1.9.38</generator>
 <lastBuildDate>Tue, 13 Oct 2026 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>How a Tiny Transformer Learns Line Structure</title>
-  <dc:creator>Rohan Buluswar</dc:creator>
+  <title>Non-Universality of Line Break Features and Algorithms</title>
   <link>https://rbuluswar.github.io/posts/line-break-project/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>This is the long-form research writeup for the line-break prediction project.</p>
-<p>The final version will combine the conceptual story with interactive 3D PCA figures that readers can rotate, zoom, and inspect with hover labels. The underlying experiments and notebooks live in the <a href="https://github.com/rbuluswar/Line-Break-Project">Line Break Project repository</a>.</p>
-<section id="planned-structure" class="level2">
-<h2 class="anchored" data-anchor-id="planned-structure">Planned structure</h2>
-<ol type="1">
-<li>The prediction task and toy Transformer.</li>
-<li>The emergence of a line-progress representation.</li>
-<li>Layer-1 attention and the character-count feature.</li>
-<li>Causal ablations and interventions.</li>
-<li>How later layers use the constructed state.</li>
-</ol>
-<p>Interactive figures and static fallbacks will be added under this post’s <code>figures/</code> directory as the writeup is assembled.</p>
+<p>This is the long-form research writeup for a project I did, investigating whether line break mechanisms found in LLMs are naturally induced in toy models. The underlying experiments and notebooks live in the <a href="https://github.com/rbuluswar/Line-Break-Project">Line Break Project repository</a>.</p>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+</section>
+<section id="model-architecture-synthetic-data-and-training" class="level2">
+<h2 class="anchored" data-anchor-id="model-architecture-synthetic-data-and-training">Model Architecture, Synthetic Data, and Training</h2>
+</section>
+<section id="activations-at-each-layer" class="level2">
+<h2 class="anchored" data-anchor-id="activations-at-each-layer">Activations at Each Layer</h2>
+</section>
+<section id="activation-geometry-before-layer-2" class="level2">
+<h2 class="anchored" data-anchor-id="activation-geometry-before-layer-2">Activation Geometry Before Layer 2</h2>
+</section>
+<section id="how-layer-1-constructs-the-character-count-manifold" class="level2">
+<h2 class="anchored" data-anchor-id="how-layer-1-constructs-the-character-count-manifold">How Layer 1 Constructs the Character Count Manifold</h2>
+</section>
+<section id="how-layer-2-utilizes-character-counts-for-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="how-layer-2-utilizes-character-counts-for-prediction">How Layer 2 Utilizes Character Counts for Prediction</h2>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+</section>
+<section id="further-directions" class="level2">
+<h2 class="anchored" data-anchor-id="further-directions">Further Directions</h2>
+</section>
+<section id="my-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="my-takeaways">My Takeaways</h2>
 
 
 </section>
 
  ]]></description>
   <category>mechanistic interpretability</category>
-  <category>transformers</category>
   <guid>https://rbuluswar.github.io/posts/line-break-project/</guid>
   <pubDate>Tue, 13 Oct 2026 04:00:00 GMT</pubDate>
 </item>

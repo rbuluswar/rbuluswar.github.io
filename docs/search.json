@@ -23,16 +23,72 @@
   {
     "objectID": "posts/line-break-project/index.html",
     "href": "posts/line-break-project/index.html",
-    "title": "How a Tiny Transformer Learns Line Structure",
+    "title": "Non-Universality of Line Break Features and Algorithms",
     "section": "",
-    "text": "This is the long-form research writeup for the line-break prediction project.\nThe final version will combine the conceptual story with interactive 3D PCA figures that readers can rotate, zoom, and inspect with hover labels. The underlying experiments and notebooks live in the Line Break Project repository."
+    "text": "This is the long-form research writeup for a project I did, investigating whether line break mechanisms found in LLMs are naturally induced in toy models. The underlying experiments and notebooks live in the Line Break Project repository."
   },
   {
-    "objectID": "posts/line-break-project/index.html#planned-structure",
-    "href": "posts/line-break-project/index.html#planned-structure",
-    "title": "How a Tiny Transformer Learns Line Structure",
-    "section": "Planned structure",
-    "text": "Planned structure\n\nThe prediction task and toy Transformer.\nThe emergence of a line-progress representation.\nLayer-1 attention and the character-count feature.\nCausal ablations and interventions.\nHow later layers use the constructed state.\n\nInteractive figures and static fallbacks will be added under this post’s figures/ directory as the writeup is assembled."
+    "objectID": "posts/line-break-project/index.html#motivation",
+    "href": "posts/line-break-project/index.html#motivation",
+    "title": "Non-Universality of Line Break Features and Algorithms",
+    "section": "Motivation",
+    "text": "Motivation"
+  },
+  {
+    "objectID": "posts/line-break-project/index.html#model-architecture-synthetic-data-and-training",
+    "href": "posts/line-break-project/index.html#model-architecture-synthetic-data-and-training",
+    "title": "Non-Universality of Line Break Features and Algorithms",
+    "section": "Model Architecture, Synthetic Data, and Training",
+    "text": "Model Architecture, Synthetic Data, and Training"
+  },
+  {
+    "objectID": "posts/line-break-project/index.html#activations-at-each-layer",
+    "href": "posts/line-break-project/index.html#activations-at-each-layer",
+    "title": "Non-Universality of Line Break Features and Algorithms",
+    "section": "Activations at Each Layer",
+    "text": "Activations at Each Layer"
+  },
+  {
+    "objectID": "posts/line-break-project/index.html#activation-geometry-before-layer-2",
+    "href": "posts/line-break-project/index.html#activation-geometry-before-layer-2",
+    "title": "Non-Universality of Line Break Features and Algorithms",
+    "section": "Activation Geometry Before Layer 2",
+    "text": "Activation Geometry Before Layer 2"
+  },
+  {
+    "objectID": "posts/line-break-project/index.html#how-layer-1-constructs-the-character-count-manifold",
+    "href": "posts/line-break-project/index.html#how-layer-1-constructs-the-character-count-manifold",
+    "title": "Non-Universality of Line Break Features and Algorithms",
+    "section": "How Layer 1 Constructs the Character Count Manifold",
+    "text": "How Layer 1 Constructs the Character Count Manifold"
+  },
+  {
+    "objectID": "posts/line-break-project/index.html#how-layer-2-utilizes-character-counts-for-prediction",
+    "href": "posts/line-break-project/index.html#how-layer-2-utilizes-character-counts-for-prediction",
+    "title": "Non-Universality of Line Break Features and Algorithms",
+    "section": "How Layer 2 Utilizes Character Counts for Prediction",
+    "text": "How Layer 2 Utilizes Character Counts for Prediction"
+  },
+  {
+    "objectID": "posts/line-break-project/index.html#conclusions",
+    "href": "posts/line-break-project/index.html#conclusions",
+    "title": "Non-Universality of Line Break Features and Algorithms",
+    "section": "Conclusions",
+    "text": "Conclusions"
+  },
+  {
+    "objectID": "posts/line-break-project/index.html#further-directions",
+    "href": "posts/line-break-project/index.html#further-directions",
+    "title": "Non-Universality of Line Break Features and Algorithms",
+    "section": "Further Directions",
+    "text": "Further Directions"
+  },
+  {
+    "objectID": "posts/line-break-project/index.html#my-takeaways",
+    "href": "posts/line-break-project/index.html#my-takeaways",
+    "title": "Non-Universality of Line Break Features and Algorithms",
+    "section": "My Takeaways",
+    "text": "My Takeaways"
   },
   {
     "objectID": "notes.html",
@@ -60,7 +116,7 @@
     "href": "posts/index.html",
     "title": "Research",
     "section": "",
-    "text": "Long-form writeups of research projects and technical investigations.\nThe Projects page gives shorter summaries; these posts contain the detailed argument, equations, figures, and interactive visualizations.\nThe first interactive writeup is currently in preparation.\n\n\n\n\n\n\n\n\n\n\n\n\nHow a Tiny Transformer Learns Line Structure\n\n\nAn interactive investigation of representation geometry and causal mechanisms in a small Transformer trained to predict line breaks.\n\n\n\nOct 13, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "My thoughts on various topics!\n\n\n\n\n\n\n\n\n\n\n\n\nNon-Universality of Line Break Features and Algorithms\n\n\nAn interactive investigation of representation geometry and causal mechanisms in a small Transformer trained to predict line breaks.\n\n\n\nOct 13, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",

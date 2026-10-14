@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Rohan Buluswar">
 <meta name="dcterms.date" content="2026-10-13">
 <meta name="description" content="An interactive investigation of representation geometry and causal mechanisms in a small Transformer trained to predict line breaks.">
 
-<title>How a Tiny Transformer Learns Line Structure – Rohan Buluswar</title>
+<title>Non-Universality of Line Break Features and Algorithms – Rohan Buluswar</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -142,7 +141,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#planned-structure" id="toc-planned-structure" class="nav-link active" data-scroll-target="#planned-structure">Planned structure</a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#model-architecture-synthetic-data-and-training" id="toc-model-architecture-synthetic-data-and-training" class="nav-link" data-scroll-target="#model-architecture-synthetic-data-and-training">Model Architecture, Synthetic Data, and Training</a></li>
+  <li><a href="#activations-at-each-layer" id="toc-activations-at-each-layer" class="nav-link" data-scroll-target="#activations-at-each-layer">Activations at Each Layer</a></li>
+  <li><a href="#activation-geometry-before-layer-2" id="toc-activation-geometry-before-layer-2" class="nav-link" data-scroll-target="#activation-geometry-before-layer-2">Activation Geometry Before Layer 2</a></li>
+  <li><a href="#how-layer-1-constructs-the-character-count-manifold" id="toc-how-layer-1-constructs-the-character-count-manifold" class="nav-link" data-scroll-target="#how-layer-1-constructs-the-character-count-manifold">How Layer 1 Constructs the Character Count Manifold</a></li>
+  <li><a href="#how-layer-2-utilizes-character-counts-for-prediction" id="toc-how-layer-2-utilizes-character-counts-for-prediction" class="nav-link" data-scroll-target="#how-layer-2-utilizes-character-counts-for-prediction">How Layer 2 Utilizes Character Counts for Prediction</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  <li><a href="#further-directions" id="toc-further-directions" class="nav-link" data-scroll-target="#further-directions">Further Directions</a></li>
+  <li><a href="#my-takeaways" id="toc-my-takeaways" class="nav-link" data-scroll-target="#my-takeaways">My Takeaways</a></li>
   </ul>
 </nav>
     </div>
@@ -151,10 +158,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How a Tiny Transformer Learns Line Structure</h1>
+<h1 class="title">Non-Universality of Line Break Features and Algorithms</h1>
   <div class="quarto-categories">
     <div class="quarto-category">mechanistic interpretability</div>
-    <div class="quarto-category">transformers</div>
   </div>
   </div>
 
@@ -167,12 +173,6 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Rohan Buluswar </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -189,18 +189,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is the long-form research writeup for the line-break prediction project.</p>
-<p>The final version will combine the conceptual story with interactive 3D PCA figures that readers can rotate, zoom, and inspect with hover labels. The underlying experiments and notebooks live in the <a href="https://github.com/rbuluswar/Line-Break-Project">Line Break Project repository</a>.</p>
-<section id="planned-structure" class="level2">
-<h2 class="anchored" data-anchor-id="planned-structure">Planned structure</h2>
-<ol type="1">
-<li>The prediction task and toy Transformer.</li>
-<li>The emergence of a line-progress representation.</li>
-<li>Layer-1 attention and the character-count feature.</li>
-<li>Causal ablations and interventions.</li>
-<li>How later layers use the constructed state.</li>
-</ol>
-<p>Interactive figures and static fallbacks will be added under this post’s <code>figures/</code> directory as the writeup is assembled.</p>
+<p>This is the long-form research writeup for a project I did, investigating whether line break mechanisms found in LLMs are naturally induced in toy models. The underlying experiments and notebooks live in the <a href="https://github.com/rbuluswar/Line-Break-Project">Line Break Project repository</a>.</p>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+</section>
+<section id="model-architecture-synthetic-data-and-training" class="level2">
+<h2 class="anchored" data-anchor-id="model-architecture-synthetic-data-and-training">Model Architecture, Synthetic Data, and Training</h2>
+</section>
+<section id="activations-at-each-layer" class="level2">
+<h2 class="anchored" data-anchor-id="activations-at-each-layer">Activations at Each Layer</h2>
+</section>
+<section id="activation-geometry-before-layer-2" class="level2">
+<h2 class="anchored" data-anchor-id="activation-geometry-before-layer-2">Activation Geometry Before Layer 2</h2>
+</section>
+<section id="how-layer-1-constructs-the-character-count-manifold" class="level2">
+<h2 class="anchored" data-anchor-id="how-layer-1-constructs-the-character-count-manifold">How Layer 1 Constructs the Character Count Manifold</h2>
+</section>
+<section id="how-layer-2-utilizes-character-counts-for-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="how-layer-2-utilizes-character-counts-for-prediction">How Layer 2 Utilizes Character Counts for Prediction</h2>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+</section>
+<section id="further-directions" class="level2">
+<h2 class="anchored" data-anchor-id="further-directions">Further Directions</h2>
+</section>
+<section id="my-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="my-takeaways">My Takeaways</h2>
 
 
 </section>
