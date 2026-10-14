@@ -1,0 +1,7 @@
+# Shared options for long-form research posts.
+# Individual posts may override these values in their own front matter.
+freeze: true
+toc: true
+format:
+  html:
+    code-fold: true

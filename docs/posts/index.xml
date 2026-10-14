@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Rohan Buluswar</title>
+<link>https://rbuluswar.github.io/posts/</link>
+<atom:link href="https://rbuluswar.github.io/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Tue, 13 Oct 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>How a Tiny Transformer Learns Line Structure</title>
+  <dc:creator>Rohan Buluswar</dc:creator>
+  <link>https://rbuluswar.github.io/posts/line-break-project/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is the long-form research writeup for the line-break prediction project.</p>
+<p>The final version will combine the conceptual story with interactive 3D PCA figures that readers can rotate, zoom, and inspect with hover labels. The underlying experiments and notebooks live in the <a href="https://github.com/rbuluswar/Line-Break-Project">Line Break Project repository</a>.</p>
+<section id="planned-structure" class="level2">
+<h2 class="anchored" data-anchor-id="planned-structure">Planned structure</h2>
+<ol type="1">
+<li>The prediction task and toy Transformer.</li>
+<li>The emergence of a line-progress representation.</li>
+<li>Layer-1 attention and the character-count feature.</li>
+<li>Causal ablations and interventions.</li>
+<li>How later layers use the constructed state.</li>
+</ol>
+<p>Interactive figures and static fallbacks will be added under this post’s <code>figures/</code> directory as the writeup is assembled.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>mechanistic interpretability</category>
+  <category>transformers</category>
+  <guid>https://rbuluswar.github.io/posts/line-break-project/</guid>
+  <pubDate>Tue, 13 Oct 2026 04:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

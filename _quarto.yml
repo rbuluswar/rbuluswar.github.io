@@ -4,10 +4,13 @@ project:
 
 website:
   title: "Rohan Buluswar"
+  site-url: https://rbuluswar.github.io
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: posts/index.qmd
+        text: Research
       - href: notes.qmd
         text: Notes
       - href: projects.qmd

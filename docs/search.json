@@ -11,14 +11,35 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "I worked with Lorenzo Orecchia to develop a method for estimating (and ultimately sampling from) an unknown probability distribution with compact support in R^n, given a sample from the distribution, while making no strict assumptions about its form. While generative diffusion models solve this problem, our algorithm avoids the use of neural networks and directly utilizes optimal transport and Wasserstein distance. I presented a poster, which you can view here, at UChicago’s 2025 Undergraduate Research Symposium."
+    "text": "I am studying how a small causal Transformer learns to represent line structure, character count, and newline prediction. The long-form, interactive version of this project is in the research writeup."
+  },
+  {
+    "objectID": "projects.html#line-break-prediction-in-a-small-transformer",
+    "href": "projects.html#line-break-prediction-in-a-small-transformer",
+    "title": "Projects",
+    "section": "",
+    "text": "I am studying how a small causal Transformer learns to represent line structure, character count, and newline prediction. The long-form, interactive version of this project is in the research writeup."
   },
   {
     "objectID": "projects.html#nonparametric-density-estimation-using-optimal-transport",
     "href": "projects.html#nonparametric-density-estimation-using-optimal-transport",
     "title": "Projects",
+    "section": "Nonparametric Density Estimation using Optimal Transport",
+    "text": "Nonparametric Density Estimation using Optimal Transport\nI worked with Lorenzo Orecchia to develop a method for estimating (and ultimately sampling from) an unknown probability distribution with compact support in R^n, given a sample from the distribution, while making no strict assumptions about its form. While generative diffusion models solve this problem, our algorithm avoids the use of neural networks and directly utilizes optimal transport and Wasserstein distance. I presented a poster, which you can view here, at UChicago’s 2025 Undergraduate Research Symposium."
+  },
+  {
+    "objectID": "posts/line-break-project/index.html",
+    "href": "posts/line-break-project/index.html",
+    "title": "How a Tiny Transformer Learns Line Structure",
     "section": "",
-    "text": "I worked with Lorenzo Orecchia to develop a method for estimating (and ultimately sampling from) an unknown probability distribution with compact support in R^n, given a sample from the distribution, while making no strict assumptions about its form. While generative diffusion models solve this problem, our algorithm avoids the use of neural networks and directly utilizes optimal transport and Wasserstein distance. I presented a poster, which you can view here, at UChicago’s 2025 Undergraduate Research Symposium."
+    "text": "This is the long-form research writeup for the line-break prediction project.\nThe final version will combine the conceptual story with interactive 3D PCA figures that readers can rotate, zoom, and inspect with hover labels. The underlying experiments and notebooks live in the Line Break Project repository."
+  },
+  {
+    "objectID": "posts/line-break-project/index.html#planned-structure",
+    "href": "posts/line-break-project/index.html#planned-structure",
+    "title": "How a Tiny Transformer Learns Line Structure",
+    "section": "Planned structure",
+    "text": "Planned structure\n\nThe prediction task and toy Transformer.\nThe emergence of a line-progress representation.\nLayer-1 attention and the character-count feature.\nCausal ablations and interventions.\nHow later layers use the constructed state.\n\nInteractive figures and static fallbacks will be added under this post’s figures/ directory as the writeup is assembled."
   },
   {
     "objectID": "notes.html",
@@ -40,6 +61,13 @@
     "title": "Notes",
     "section": "Notes",
     "text": "Notes\nThese are some notes I used to study for final exams at UChicago - they are a good summary of definitions and statements but do not contain proofs.\n\nMeasure Theory (MATH 20900)\nRings and Modules (MATH 25800)\nMarkov Chains, Martingales, and Brownian Motion (MATH 23500)\nRegression and Causal Inference (STAT 34300)\nMeasure-Theoretic Probability (STAT 38100)"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Long-form writeups of research projects and technical investigations.\nThe Projects page gives shorter summaries; these posts contain the detailed argument, equations, figures, and interactive visualizations.\nThe first interactive writeup is currently in preparation.\n\n\n\n\n\n\n\n\n\n\n\n\nHow a Tiny Transformer Learns Line Structure\n\n\nAn interactive investigation of representation geometry and causal mechanisms in a small Transformer trained to predict line breaks.\n\n\n\nOct 13, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",

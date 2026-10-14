@@ -2,6 +2,12 @@
 title: "Projects"
 ---
 
+## Line-break prediction in a small Transformer
+
+I am studying how a small causal Transformer learns to represent line structure,
+character count, and newline prediction. The long-form, interactive version of
+this project is in the [research writeup](posts/line-break-project/).
+
 ## Nonparametric Density Estimation using Optimal Transport
 
 I worked with Lorenzo Orecchia to develop a method for estimating (and ultimately sampling from) an unknown 
