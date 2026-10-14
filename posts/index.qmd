@@ -9,9 +9,4 @@ listing:
 page-layout: full
 ---
 
-Long-form writeups of research projects and technical investigations.
-
-The [Projects page](../projects.qmd) gives shorter summaries; these posts contain
-the detailed argument, equations, figures, and interactive visualizations.
-
-The first interactive writeup is currently in preparation.
+My thoughts on various topics! 
